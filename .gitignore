@@ -25,6 +25,7 @@ wheels/
 *.egg
 MANIFEST
 venv/
+.venv311/
 env/
 ENV/
 env.bak/
@@ -93,3 +94,4 @@ agent.md
 simple_db.md
 db.md
 
+*.exe

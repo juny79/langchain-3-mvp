@@ -17,7 +17,7 @@
 - **Framework**: FastAPI, Python 3.11
 - **Workflow**: LangGraph
 - **DB**: MySQL 8.0, Qdrant (Vector DB)
-- **LLM**: OpenAI API
+- **LLM**: Upstage Solar API (solar-1-mini-chat)
 - **Embedding**: bge-m3 (BAAI/bge-m3)
 - **Observability**: LangSmith
 
@@ -428,8 +428,9 @@ DATABASE_URL=mysql+pymysql://user:pass@host:3306/db
 QDRANT_URL=http://qdrant:6333
 QDRANT_COLLECTION=policies
 
-# OpenAI
-OPENAI_API_KEY=sk-...
+# Solar API (Upstage)
+SOLAR_API_KEY=up_...
+SOLAR_MODEL=solar-1-mini-chat
 
 # LangSmith
 LANGSMITH_API_KEY=lsv2_...
